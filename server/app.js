@@ -18,13 +18,23 @@ const {
   getSongBySongId,
   addSongByAlbumId,
   editSongBySongId,
-  deleteSongBySongId
+  deleteSongBySongId,
 } = require('./data');
 
 const express = require('express');
 const app = express();
 
-// Your code here
+app.use(express.json());
 
-const port = 5000;
+
+app.use((req, res, next) => {
+  console.log('Body:', req.body);
+  next();
+});
+
+// app.get((req, res) => {
+//   console.log('Body:', req.body);
+// });
+
+const port = 5005;
 app.listen(port, () => console.log('Server is listening on port', port));

@@ -1,0 +1,23 @@
+{
+  "name": "practice-for-week-10-express-route-handlers",
+  "version": "1.0.0",
+  "description": "-# Practice: Express Route Handlers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appacademy/practice-for-week-10-express-route-handlers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appacademy/practice-for-week-10-express-route-handlers/issues"
+  },
+  "homepage": "https://github.com/appacademy/practice-for-week-10-express-route-handlers#readme",
+  "dependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
